@@ -1,7 +1,5 @@
-import React from 'react'
 import { TbBrandGithub } from "react-icons/tb";
 import { SlSocialLinkedin, SlSocialFacebook, SlSocialInstagram, SlSocialYoutube } from "react-icons/sl";
-import Link from 'next/link';
 
 const LeftSide = () => {
     return (
@@ -14,21 +12,21 @@ const LeftSide = () => {
                         <TbBrandGithub />
                     </span>
                 </a>
-                <a href="https://github.com/firstminster" target="_blank" rel="noopener noreferrer">
+                {/* <a href="https://github.com/firstminster" target="_blank" rel="noopener noreferrer">
                     <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
                         <SlSocialYoutube />
                     </span>
-                </a>
-                <a href="https://github.com/firstminster" target="_blank" rel="noopener noreferrer">
+                </a> */}
+                <a href="https://www.linkedin.com/in/chinecherem/" target="_blank" rel="noopener noreferrer">
                     <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
                         <SlSocialLinkedin />
                     </span>
                 </a>
-                <a href="https://github.com/firstminster" target="_blank" rel="noopener noreferrer">
+                {/* <a href="https://github.com/firstminster" target="_blank" rel="noopener noreferrer">
                     <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
                         <SlSocialFacebook />
                     </span>
-                </a>
+                </a> */}
                 <a href="https://www.instagram.com/firstminster_/" target="_blank" rel="noopener noreferrer">
                     <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
                         <SlSocialInstagram />
