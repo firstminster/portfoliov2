@@ -29,8 +29,12 @@ const About = () => {
                     </p>
                     <p>
                         Driven by a love for design, I seamlessly blend my coding skills with a deep appreciation for aesthetics. Whether it's transforming wireframes into polished websites or collaborating with designers to bring visions to life, I'm dedicated to creating interfaces that not only meet but exceed user expectations.
-
-                        {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis porro, consequuntur quis libero maiores voluptas illum accusantium ea iusto excepturi. */}
+                    </p>
+                    <p>
+                        As a problem solver at heart, I thrive on tackling challenges and finding elegant solutions. I find joy in collaborating with cross-functional teams, translating complex requirements into functional and intuitive user experiences.
+                    </p>
+                    <p>
+                        The ever-evolving nature of web development excites me, and I consider myself a lifelong learner. I actively seek out opportunities to expand my skill set, experimenting with new technologies and frameworks to ensure I stay at the forefront of frontend innovation.
                     </p>
                     <p>Here are a few technologies I have been working with recently:</p>
                     <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6" >

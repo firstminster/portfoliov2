@@ -92,9 +92,9 @@ const Navbar = () => {
                             <MdOutlineClose onClick={() => setShowMenu(false)} className='tex-3xl text-textGreen cursor-pointer hover:text-red-500 absolute top-4 right-4' />
                             <div className="flex flex-col items-center gap-7">
                                 <ul className='flex flex-col text-base gap-7'>
-                                    <Link onClick={handleScroll} href="#home" className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link ' >
+                                    {/* <Link onClick={handleScroll} href="#home" className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link ' >
                                         <motion.li initial={{ y: -10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.1 }} >Home</motion.li>
-                                    </Link>
+                                    </Link> */}
                                     <Link onClick={handleScroll} href="#about" className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link ' >
                                         <motion.li initial={{ y: -10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.1, delay: 0.1 }}>
 
@@ -135,29 +135,29 @@ const Navbar = () => {
                                             <TbBrandGithub />
                                         </span>
                                     </motion.a>
-                                    <motion.a initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.85, ease: 'easeIn' }} href="https://github.com/firstminster" target="_blank" rel="noopener noreferrer">
+                                    {/* <motion.a initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.85, ease: 'easeIn' }} href="https://github.com/firstminster" target="_blank" rel="noopener noreferrer">
                                         <span className="w-10 h-10 text-xl bg-hoverColor border-[1px] border-[#3f3f46] hover:border-textGreen text-[#e4e4e7] rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
                                             <SlSocialYoutube />
                                         </span>
-                                    </motion.a>
-                                    <motion.a initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.9, ease: 'easeIn' }} href="https://github.com/firstminster" target="_blank" rel="noopener noreferrer">
+                                    </motion.a> */}
+                                    <motion.a initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.85, ease: 'easeIn' }} href="https://github.com/firstminster" target="_blank" rel="noopener noreferrer">
                                         <span className="w-10 h-10 text-xl bg-hoverColor border-[1px] border-[#3f3f46] hover:border-textGreen text-[#e4e4e7] rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
                                             <SlSocialLinkedin />
                                         </span>
                                     </motion.a>
-                                    <motion.a initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.95, ease: 'easeIn' }} href="https://github.com/firstminster" target="_blank" rel="noopener noreferrer">
+                                    {/* <motion.a initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.95, ease: 'easeIn' }} href="https://github.com/firstminster" target="_blank" rel="noopener noreferrer">
                                         <span className="w-10 h-10 text-xl bg-hoverColor border-[1px] border-[#3f3f46] hover:border-textGreen text-[#e4e4e7] rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
                                             <SlSocialFacebook />
                                         </span>
-                                    </motion.a >
-                                    <motion.a initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.1, ease: 'easeIn' }} href="https://www.instagram.com/firstminster_/" target="_blank" rel="noopener noreferrer">
+                                    </motion.a > */}
+                                    <motion.a initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.9, ease: 'easeIn' }} href="https://www.instagram.com/firstminster_/" target="_blank" rel="noopener noreferrer">
                                         <span className="w-10 h-10 text-xl bg-hoverColor border-[1px] border-[#3f3f46] hover:border-textGreen text-[#e4e4e7] rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
                                             <SlSocialInstagram />
                                         </span>
                                     </motion.a>
                                 </div>
-                                <motion.a initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.2, ease: 'easeIn' }} className='text-sm w-72 tracking-widest text-textGreen text-center mt-4' href="mailto:promiseharrycyber">
-                                    <p>firstminster@reach.me</p>
+                                <motion.a initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.2, ease: 'easeIn' }} className='text-sm w-72 tracking-widest text-textGreen text-center mt-4' href="mailto:promiseharrycyber@gmail.com">
+                                    <p>promiseharrycyber@gmail.com</p>
                                 </motion.a>
                             </div>
                         </motion.div>
