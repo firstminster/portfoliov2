@@ -12,8 +12,8 @@ const Projects = () => {
             <SectionTitle title='Some Things I have Built' titleNo='03' />
             <div className="w-full flex flex-col items-center justify-between gap-28 mt-10">
                 {/* Project one */}
-                <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
-                    <div className="flex flex-col xl:flex-row gap-6">
+                <div className="w-full flex flex-col items-center justify-center gap-28 mt-10 ">
+                    <div className="flex flex-col xl:flex-row gap-6 ">
                         <a className='w-full xl:w-1/2 h-auto relative group' href="https://www.amazon.com/" target='_blank'>
                             <div className="">
                                 <Image className='w-full h-full object-contain' src={Zapier} alt='EmailGenImg' />
@@ -40,9 +40,9 @@ const Projects = () => {
                                 <a className='hover:text-textGreen duration-300' href="https://github.com/firstminster" target='_blank'>
                                     <TbBrandGithub />
                                 </a>
-                                <a className='hover:text-textGreen duration-300' href="https://github.com/firstminster" target='_blank'>
+                                {/* <a className='hover:text-textGreen duration-300' href="https://github.com/firstminster" target='_blank'>
                                     <AiOutlineYoutube />
-                                </a>
+                                </a> */}
                                 <a className='hover:text-textGreen duration-300' href="https://github.com/firstminster" target='_blank'>
                                     <RxOpenInNewWindow />
                                 </a>
@@ -80,9 +80,9 @@ const Projects = () => {
                                 <a className='hover:text-textGreen duration-300' href="https://github.com/firstminster" target='_blank'>
                                     <TbBrandGithub />
                                 </a>
-                                <a className='hover:text-textGreen duration-300' href="https://github.com/firstminster" target='_blank'>
+                                {/* <a className='hover:text-textGreen duration-300' href="https://github.com/firstminster" target='_blank'>
                                     <AiOutlineYoutube />
-                                </a>
+                                </a> */}
                                 <a className='hover:text-textGreen duration-300' href="https://github.com/firstminster" target='_blank'>
                                     <RxOpenInNewWindow />
                                 </a>
@@ -120,9 +120,9 @@ const Projects = () => {
                                 <a className='hover:text-textGreen duration-300' href="https://github.com/firstminster" target='_blank'>
                                     <TbBrandGithub />
                                 </a>
-                                <a className='hover:text-textGreen duration-300' href="https://github.com/firstminster" target='_blank'>
+                                {/* <a className='hover:text-textGreen duration-300' href="https://github.com/firstminster" target='_blank'>
                                     <AiOutlineYoutube />
-                                </a>
+                                </a> */}
                                 <a className='hover:text-textGreen duration-300' href="https://github.com/firstminster" target='_blank'>
                                     <RxOpenInNewWindow />
                                 </a>
