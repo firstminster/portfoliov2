@@ -23,7 +23,7 @@ const Banner = () => {
             </motion.h3>
             <motion.h1 initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.7 }} className='text-4xl lgl:text-6xl font-bodyFont font-semibold flex flex-col'>Harry Chinecherem. <span className='text-textDark mt-2 lgl:mt-4' >I build things for the web.</span> </motion.h1>
             <motion.p initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.8 }} className="text-base md:max-w-[650px] text-textDark font-medium">
-                I’m a software engineer with a focus on creating exceptional digital experiences that are optimized, accessible, visually appealing, and responsive. {' '}
+                I’m a frontend software engineer with a focus on creating exceptional digital experiences that are optimized, accessible, visually appealing, and responsive. {' '}
                 <Link onClick={handleScroll} href="#about" >
                     {/* <a href="https://www.firstminster.dev/" target='_blank'> */}
                     <span className='text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group'>Learn More
@@ -44,3 +44,5 @@ const Banner = () => {
 export default Banner
 
 // I'm a software engineer with 3+ years of experience in Javascript and React. I have a strong foundation in front-end & back-end development and am skilled in creating user-friendly and responsive web applications using React and its ecosystem.
+
+// I am a web developer with 3+ years of experience in React. I have a strong foundation in front-end & back-end development and am skilled in creating user-friendly and responsive web applications using React and its ecosystem.
