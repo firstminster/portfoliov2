@@ -13,7 +13,7 @@ const About = () => {
                     <p >
                         {/* Hello, My name is Harry Chinecherem and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when i decided to try editing custom Tumblr themes - turns out hacking together a custom reblog button taughtme a lot about HTML & CSS! */}
 
-                        Greetings! I'm Harry Chinecherem, a passionate frontend developer with a keen eye for crafting visually stunning and user-friendly web experiences. With a solid foundation in HTML, CSS, and JavaScript, I bring a creative and detail-oriented approach to every project I undertake.
+                        Greetings! I'm Chinecherem Harry, a passionate frontend developer with a keen eye for crafting visually stunning and user-friendly web experiences. With a solid foundation in HTML, CSS, and JavaScript, I bring a creative and detail-oriented approach to every project I undertake.
                     </p>
                     <p className="">
                         My expertise extends to mastering modern frontend frameworks, including React.js and Next.js, to build responsive and dynamic interfaces. <span className="text-textGreen"> I take pride in writing clean, efficient code </span> and staying updated on the latest industry trends and best practices.
