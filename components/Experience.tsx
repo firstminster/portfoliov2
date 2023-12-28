@@ -5,6 +5,7 @@ import MotherBoard from './works/MotherBoard'
 import Mishtranzact from './works/Mishtranzact'
 import Vattn from './works/Vattn'
 import Innovatum from './works/Innovatum'
+import Integrify from './works/Integrify'
 
 
 const Experience = () => {
@@ -13,7 +14,7 @@ const Experience = () => {
     const [workVattn, setworkVattn] = useState(false)
     const [workInnovatum, setworkInnovatum] = useState(false)
 
-    const [workReactbd, setworkReactbd] = useState(false)
+    const [workIntegrify, setworkIntegrify] = useState(false)
 
 
     const handleworkMotherBoard = () => {
@@ -22,7 +23,7 @@ const Experience = () => {
         setworkVattn(false)
         setworkInnovatum(false)
 
-        setworkReactbd(false)
+        setworkIntegrify(false)
     }
 
     const handleworkMishtranzact = () => {
@@ -31,7 +32,7 @@ const Experience = () => {
         setworkVattn(false)
         setworkInnovatum(false)
 
-        setworkReactbd(false)
+        setworkIntegrify(false)
     }
 
     const handleworksetworkVattn = () => {
@@ -40,7 +41,7 @@ const Experience = () => {
         setworkVattn(true)
         setworkInnovatum(false)
 
-        setworkReactbd(false)
+        setworkIntegrify(false)
     }
 
     const handleworksetworkInnovatum = () => {
@@ -49,16 +50,16 @@ const Experience = () => {
         setworkVattn(false)
         setworkInnovatum(true)
 
-        setworkReactbd(false)
+        setworkIntegrify(false)
     }
 
-    const handleReactbd = () => {
+    const handleIntegrify = () => {
         setworkMotherBoard(false)
         setworkMishtranzact(false)
         setworkVattn(false)
         setworkInnovatum(false)
 
-        setworkReactbd(true)
+        setworkIntegrify(true)
     }
 
 
@@ -71,16 +72,16 @@ const Experience = () => {
                     <li onClick={handleworkMotherBoard} className={`${workMotherBoard ? 'border-l-textGreen text-textGreen' : 'border-l-hoverColor text-textDark'} border-l-2  bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8`} >MotherBoard</li>
                     <li onClick={handleworkMishtranzact} className={`${workMishtranzact ? 'border-l-textGreen text-textGreen' : 'border-l-hoverColor text-textDark'} border-l-2  bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8`} >Mishtranzact</li>
                     <li onClick={handleworksetworkVattn} className={`${workVattn ? 'border-l-textGreen text-textGreen' : 'border-l-hoverColor text-textDark'} border-l-2  bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8`} >Vattn</li>
+                    <li onClick={handleIntegrify} className={`${workIntegrify ? 'border-l-textGreen text-textGreen' : 'border-l-hoverColor text-textDark'} border-l-2  bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8`} >Integrify</li>
                     <li onClick={handleworksetworkInnovatum} className={`${workInnovatum ? 'border-l-textGreen text-textGreen' : 'border-l-hoverColor text-textDark'} border-l-2  bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8`} >Innovatum</li>
 
-                    {/* <li onClick={handleReactbd} className={`${workReactbd ? 'border-l-textGreen text-textGreen' : 'border-l-hoverColor text-textDark'} border-l-2  bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8`} >ReactBD</li> */}
 
                 </ul>
                 {workMotherBoard && <MotherBoard />}
                 {workMishtranzact && <Mishtranzact />}
                 {workVattn && <Vattn />}
+                {workIntegrify && <Integrify />}
                 {workInnovatum && <Innovatum />}
-                {/* {workReactbd && <ReactBD />} */}
 
             </div>
         </section>

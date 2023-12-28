@@ -9,16 +9,20 @@ const MotherBoard = () => {
             <ul className="mt-6 flex flex-col gap-3" >
                 <li className="text-base flex gap-2 text-textDark">
                     <span className="text-textGreen mt-1" ><TiArrowForward /></span>
-                    Write modern, performant, maintainable code for a diverse array of client and internal projects.
+                    Developed and engineered a cutting-edge Progressive Web App gas station locator, leveraging Javascript, Next.js, Typescript, and TailwindCSS.
                 </li>
                 <li className="text-base flex gap-2 text-textDark">
                     <span className="text-textGreen mt-1" ><TiArrowForward /></span>
-                    Work with a variety of different languages, platform, frameworks, and content management systems such as Javascript, Typescript, Gatsby, React, Craft, WordPress, Prismic, and Netflify.
+                    Implemented a sophisticated geolocation feature within the gas station locator app, enhancing the precision of locating sources for our energy partners.
                 </li>
                 <li className="text-base flex gap-2 text-textDark">
+                    <span className="text-textGreen mt-1" ><TiArrowForward /></span>
+                    Actively collaborated with the development team, contributing to the enhancement of the Motherboard codebase. Worked closely with senior developers to implement new features, address bugs, and optimize existing functionalities.
+                </li>
+                {/* <li className="text-base flex gap-2 text-textDark">
                     <span className="text-textGreen mt-1" ><TiArrowForward /></span>
                     Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis.
-                </li>
+                </li> */}
             </ul>
         </motion.div>
     )

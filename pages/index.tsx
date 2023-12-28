@@ -17,9 +17,9 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Firstminster</title>
+        <title>Firstminster Portfolio</title>
         <meta name="keywords" content={'Firstminster Portfolio | Software Engineer | Software Developer | Web Developer | Front-end Developer | Back-end developer'} />
-        <meta name="description" content="I am a web developer with 3+ years of experience in React. I have a strong foundation in front-end & back-end development and am skilled in creating user-friendly and responsive web applications using React and its ecosystem." />
+        <meta name="description" content="I’m a frontend software engineer with a focus on creating exceptional digital experiences that are optimized, accessible, visually appealing, and responsive to my clients" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
