@@ -11,7 +11,7 @@ const About = () => {
             <div className="flex flex-col lgl:flex-row gap-16">
                 <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
                     <p >
-                        Greetings! I'm Chinecherem Harry, a passionate frontend developer with a keen eye for crafting visually stunning and user-friendly web experiences. With a solid foundation in HTML, CSS, and JavaScript, I bring a creative and detail-oriented approach to every project I undertake.
+                        Greetings! I'm Harry, a passionate frontend developer with a keen eye for crafting visually stunning and user-friendly web experiences. With a solid foundation in HTML, CSS, and JavaScript, I bring a creative and detail-oriented approach to every project I undertake.
                     </p>
                     <p className="">
                         My expertise extends to mastering modern frontend frameworks, including React.js and Next.js, to build responsive and dynamic interfaces. <span className="text-textGreen"> I take pride in writing clean, efficient code </span> and staying updated on the latest industry trends and best practices.
