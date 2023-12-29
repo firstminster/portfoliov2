@@ -19,7 +19,7 @@ export default function Home() {
       <Head>
         <title>Chinecherem Harry</title>
         <meta name="keywords" content={'Firstminster Portfolio | Software Engineer | Software Developer | Web Developer | Front-end Developer | Back-end developer'} />
-        <meta name="description" content="I’m a software engineer specialized in building exceptional digital experiences that are optimized, accessible, visually appealing, and responsive to my clients." />
+        <meta name="description" content="I’m a software engineer specialized in building exceptional digital experiences that are optimized, accessible, visually appealing, and responsive to stakeholders." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

@@ -9,7 +9,7 @@ const MotherBoard = () => {
             <ul className="mt-6 flex flex-col gap-3" >
                 <li className="text-base flex gap-2 text-textDark">
                     <span className="text-textGreen mt-1" ><TiArrowForward /></span>
-                    Developed and engineered a cutting-edge Progressive Web App gas station locator, leveraging Javascript, Next.js, Typescript, and TailwindCSS.
+                    Developed and engineered a cutting-edge Progressive Web App gas station locator, leveraging Javascript, Next.js, Typescript, and Tailwindcss.
                 </li>
                 <li className="text-base flex gap-2 text-textDark">
                     <span className="text-textGreen mt-1" ><TiArrowForward /></span>
