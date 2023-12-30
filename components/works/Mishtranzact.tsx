@@ -13,16 +13,12 @@ const Mishtranzact = () => {
                 </li>
                 <li className="text-base flex gap-2 text-textDark">
                     <span className="text-textGreen mt-1" ><TiArrowForward /></span>
-                    Achieved a remarkable 60% digitalization of the academic process for the institution through the successful deployment of the education portal. This digital transformation streamlined various academic functions, optimizing efficiency and accessibility.
+                    Achieved a remarkable 20% digitalization of the academic process for the institution through the successful deployment of the education portal. This digital transformation streamlined various academic functions, optimizing efficiency and accessibility.
                 </li>
                 <li className="text-base flex gap-2 text-textDark">
                     <span className="text-textGreen mt-1" ><TiArrowForward /></span>
-                    Implemented features within the platform resulting in an impressive 80% improvement in the ease of records collection and transmission. This not only reduced manual efforts but also enhanced the accuracy and speed of academic record-keeping.
+                    Implemented features within the platform resulting in an impressive 30% improvement in the ease of records collection and transmission. This not only reduced manual efforts but also enhanced the accuracy and speed of academic record-keeping.
                 </li>
-                {/* <li className="text-base flex gap-2 text-textDark">
-                    <span className="text-textGreen mt-1" ><TiArrowForward /></span>
-                    Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders.
-                </li> */}
             </ul>
         </motion.div>
     )

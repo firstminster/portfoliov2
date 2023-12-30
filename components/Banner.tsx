@@ -25,11 +25,9 @@ const Banner = () => {
             <motion.p initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.8 }} className="text-base md:max-w-[650px] text-textDark font-medium">
                 I’m a software engineer specialized in building exceptional digital experiences that are optimized, accessible, visually appealing, and responsive to stakeholders. {' '}
                 <Link onClick={handleScroll} href="#about" >
-                    {/* <a href="https://www.firstminster.dev/" target='_blank'> */}
                     <span className='text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group'>Learn More
                         <span className="absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500" />
                     </span>
-                    {/* </a> */}
                 </Link>
             </motion.p>
             <Link onClick={handleScroll} href="#project" >
@@ -42,7 +40,3 @@ const Banner = () => {
 }
 
 export default Banner
-
-// I'm a software engineer with 3+ years of experience in Javascript and React. I have a strong foundation in front-end & back-end development and am skilled in creating user-friendly and responsive web applications using React and its ecosystem.
-
-// I am a web developer with 3+ years of experience in React. I have a strong foundation in front-end & back-end development and am skilled in creating user-friendly and responsive web applications using React and its ecosystem.

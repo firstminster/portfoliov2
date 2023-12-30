@@ -15,10 +15,6 @@ const Integrify = () => {
                     <span className="text-textGreen mt-1" ><TiArrowForward /></span>
                     Actively participated in the training and mentorship of developers, contributing to the social mission of Integrify by helping individuals kick-start their careers in top European companies.
                 </li>
-                {/* <li className="text-base flex gap-2 text-textDark">
-                    <span className="text-textGreen mt-1" ><TiArrowForward /></span>
-                    Worked with IoT specialists to integrate sensor technologies seamlessly into the front-end, providing property owners with real-time data and insights into their well management.
-                </li> */}
             </ul>
         </motion.div>
     )

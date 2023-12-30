@@ -19,10 +19,6 @@ const MotherBoard = () => {
                     <span className="text-textGreen mt-1" ><TiArrowForward /></span>
                     Actively collaborated with the development team, contributing to the enhancement of the Motherboard codebase. Worked closely with senior developers to implement new features, address bugs, and optimize existing functionalities.
                 </li>
-                {/* <li className="text-base flex gap-2 text-textDark">
-                    <span className="text-textGreen mt-1" ><TiArrowForward /></span>
-                    Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis.
-                </li> */}
             </ul>
         </motion.div>
     )
