@@ -9,15 +9,15 @@ const MotherBoard = () => {
             <ul className="mt-6 flex flex-col gap-3" >
                 <li className="text-base flex gap-2 text-textDark">
                     <span className="text-textGreen mt-1" ><TiArrowForward /></span>
-                    Developing and engineering a cutting-edge Progressive Web App gas station locator, leveraging Javascript, Next.js, Typescript, and Tailwindcss.
+                    Develop and engineer a cutting-edge Progressive Web App gas station locator, leveraging Javascript, Next.js, Typescript, and Tailwindcss.
                 </li>
                 <li className="text-base flex gap-2 text-textDark">
                     <span className="text-textGreen mt-1" ><TiArrowForward /></span>
-                    Implementing a sophisticated geolocation and reverse-geocoding feature within the gas station locator app, enhancing the precision of locating sources for our energy partners.
+                    Implement a sophisticated geolocation and reverse-geocoding feature within the gas station locator app, enhancing the precision of locating sources for our energy partners.
                 </li>
                 <li className="text-base flex gap-2 text-textDark">
                     <span className="text-textGreen mt-1" ><TiArrowForward /></span>
-                    Actively collaborating with the development team, contributing to the enhancement of the Motherboard codebase. Worked closely with senior developers to implement new features, address bugs, and optimize existing functionalities.
+                    Actively collaborate with the development team, contributing to the enhancement of the Motherboard codebase. Worked closely with senior developers to implement new features, address bugs, and optimize existing functionalities.
                 </li>
             </ul>
         </motion.div>

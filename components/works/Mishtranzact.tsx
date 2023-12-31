@@ -9,7 +9,7 @@ const Mishtranzact = () => {
             <ul className="mt-6 flex flex-col gap-3" >
                 <li className="text-base flex gap-2 text-textDark">
                     <span className="text-textGreen mt-1" ><TiArrowForward /></span>
-                    Spearheaded the development of a dynamic and feature-rich education portal using Javascript, Next.js, Typescript, and Tailwind CSS. This transformative project aimed to seamlessly connect students, teachers, and administrators, fostering an integrated and efficient academic ecosystem.
+                    Spearheaded the development of a dynamic and feature-rich eduTech portal using Javascript, Next.js, Typescript, and Tailwind CSS. This transformative project aimed to seamlessly connect students, teachers, and administrators, fostering an integrated and efficient academic ecosystem.
                 </li>
                 <li className="text-base flex gap-2 text-textDark">
                     <span className="text-textGreen mt-1" ><TiArrowForward /></span>
