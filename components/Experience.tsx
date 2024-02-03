@@ -9,56 +9,51 @@ import Integrify from './works/Integrify'
 
 
 const Experience = () => {
-    const [workMotherBoard, setworkMotherBoard] = useState(true)
-    const [workMishtranzact, setworkMishtranzact] = useState(false)
+    // const [workMotherBoard, setworkMotherBoard] = useState(true) 
+    const [workMishtranzact, setworkMishtranzact] = useState(true)
     const [workVattn, setworkVattn] = useState(false)
     const [workInnovatum, setworkInnovatum] = useState(false)
-
     const [workIntegrify, setworkIntegrify] = useState(false)
 
 
-    const handleworkMotherBoard = () => {
-        setworkMotherBoard(true)
-        setworkMishtranzact(false)
-        setworkVattn(false)
-        setworkInnovatum(false)
+    // const handleworkMotherBoard = () => {
+    //     setworkMotherBoard(true)
+    //     setworkMishtranzact(false)
+    //     setworkVattn(false)
+    //     setworkInnovatum(false)
 
-        setworkIntegrify(false)
-    }
+    //     setworkIntegrify(false)
+    // }
 
     const handleworkMishtranzact = () => {
-        setworkMotherBoard(false)
+        // setworkMotherBoard(false)
         setworkMishtranzact(true)
         setworkVattn(false)
         setworkInnovatum(false)
-
         setworkIntegrify(false)
     }
 
     const handleworksetworkVattn = () => {
-        setworkMotherBoard(false)
+        // setworkMotherBoard(false)
         setworkMishtranzact(false)
         setworkVattn(true)
         setworkInnovatum(false)
-
         setworkIntegrify(false)
     }
 
     const handleworksetworkInnovatum = () => {
-        setworkMotherBoard(false)
+        // setworkMotherBoard(false)
         setworkMishtranzact(false)
         setworkVattn(false)
         setworkInnovatum(true)
-
         setworkIntegrify(false)
     }
 
     const handleIntegrify = () => {
-        setworkMotherBoard(false)
+        // setworkMotherBoard(false)
         setworkMishtranzact(false)
         setworkVattn(false)
         setworkInnovatum(false)
-
         setworkIntegrify(true)
     }
 

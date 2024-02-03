@@ -30,14 +30,15 @@ const Projects = () => {
                                 K-12 Institution
                             </h3>
                             <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-                                I developed this dynamic landing page for a K-12 Institution, featuring streamlined admission processes, integrated payment options, news updates, event listings, campus galleries, and online registration forms. This user-friendly hub serves as a one-stop destination for prospective students and parents to explore institutional benefits and complete enrollment tasks effortlessly.
+                                I designed and developed this dynamic landing page for a K-12 Institution, featuring streamlined admission processes, integrated payment options, news updates, event listings, campus galleries, and online registration forms. This user-friendly hub serves as a one-stop destination for prospective students and parents to explore institutional benefits and complete enrollment tasks effortlessly.
                             </p>
 
                             <ul className='text-sm md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark' >
                                 <li>Nextjs</li>
                                 <li>JavaScript</li>
                                 <li>Typescript</li>
-                                <li>Tailwind CSS</li>
+                                <li>Tailwind</li>
+                                <li>Figma</li>
                             </ul>
                             <div className="text-2xl flex gap-4">
                                 <a className='hover:text-textGreen duration-300' href="https://github.com/firstminster/portfoliov2" target='_blank'>
