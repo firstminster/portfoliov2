@@ -71,7 +71,7 @@ const Navbar = () => {
                         </Link>
                     </ul>
                     {/* /assets/resume.pdf */}
-                    <a href="/assets/chinecherem-harry-resume.pdf" target='_blank'>
+                    <a href="https://standardresume.co/r/firstminster" target='_blank'>
                         <motion.button
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}

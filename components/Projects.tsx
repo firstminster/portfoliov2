@@ -41,7 +41,7 @@ const Projects = () => {
                                 <li>Figma</li>
                             </ul>
                             <div className="text-2xl flex gap-4">
-                                <a className='hover:text-textGreen duration-300' href="https://github.com/firstminster/portfoliov2" target='_blank'>
+                                <a className='hover:text-textGreen duration-300' href="https://github.com/firstminster/dayspring_website" target='_blank'>
                                     <TbBrandGithub />
                                 </a>
                                 <a className='hover:text-textGreen duration-300' href="https://www.figma.com/file/pNRi6IWMv9sWtKEpGk5i7e/Dayspring-Academy?type=design&node-id=1%3A2&mode=design&t=DaHzoCTKbGz54IeZ-1" target='_blank'>
@@ -51,8 +51,6 @@ const Projects = () => {
                                     <RxOpenInNewWindow />
                                 </a>
                             </div>
-
-
                         </div>
                     </div>
                 </div>
