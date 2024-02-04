@@ -30,7 +30,7 @@ const Projects = () => {
                                 K-12 Institution
                             </h3>
                             <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-                                I designed and developed this dynamic landing page for a K-12 Institution, featuring streamlined admission processes, integrated payment options, news updates, event listings, campus galleries, and online registration forms. This user-friendly hub serves as a one-stop destination for prospective students and parents to explore institutional benefits and complete enrollment tasks effortlessly.
+                                A dynamic landing page for a K-12 Institution, featuring streamlined admission processes, integrated payment options, news updates, event listings, campus galleries, and online registration forms. This user-friendly hub serves as a one-stop destination for prospective students and parents to explore institutional benefits and complete enrollment tasks effortlessly.
                             </p>
 
                             <ul className='text-sm md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark' >
