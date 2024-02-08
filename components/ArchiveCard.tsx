@@ -6,6 +6,7 @@ interface Props {
     desc: string;
     listItem: any;
     link: string;
+
 }
 
 const ArchiveCard = ({ title, desc, listItem, link }: Props) => {
@@ -20,11 +21,12 @@ const ArchiveCard = ({ title, desc, listItem, link }: Props) => {
                     <h2 className='text-xl font-titleFont font-semibold tracking-wide group-hover:text-textGreen' >{title}</h2>
                     <p className="text-sm mt-3">{desc}</p>
                 </div>
-                <p className="text-xs mdl:text-sm text-textDark flex items-center gap-2 justify-between flex-wrap">hello</p>
                 <ul className="text-xs mdl:text-sm text-textDark flex items-center gap-2 justify-between flex-wrap">
-                    {listItem?.map((item: string, idx: number) => {
-                        // console.log(item);
-                        <li key={idx} >{item}</li>
+                    {listItem?.map((item: any, idx: number) => {
+                        const { id, skill } = item
+                        return (
+                            <li key={id}>{skill}</li>
+                        )
                     })}
                 </ul>
             </div>

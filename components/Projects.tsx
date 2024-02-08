@@ -13,8 +13,15 @@ const Projects = () => {
         <section id='project' className='max-w-container mx-auto lgl:px-20 py-24'>
             <SectionTitle title='Some Things I have Built' titleNo='03' />
             <div className="w-full flex flex-col items-center justify-between gap-28 mt-10">
-                {/* <ProjectCard image={project2} projectName={"K-12 Institution"} skills={["Nextjs", 'JavaScript', 'Typescript', 'Tailwind CSS', 'React hook form']} content={'I developed a dynamic landing page for a K-12 Institution, featuring streamlined admission processes, integrated payment options, news updates, event listings, campus galleries, and online registration forms. This user-friendly hub serves as a one-stop destination for prospective students and parents to explore institutional benefits and complete enrollment tasks effortlessly.'} /> */}
                 {/* Project one */}
+                <ProjectCard image={project2} projectName={"K-12 Institution"} skills={[
+                    { id: 1, skill: "Nextjs" },
+                    { id: 2, skill: "JavaScript" },
+                    { id: 3, skill: "Typescript" },
+                    { id: 4, skill: "Tailwind CSS" },
+                    { id: 5, skill: "React hook form" },
+                ]} content={'I developed a dynamic landing page for a K-12 Institution, featuring streamlined admission processes, integrated payment options, news updates, event listings, campus galleries, and online registration forms. This user-friendly hub serves as a one-stop destination for prospective students and parents to explore institutional benefits and complete enrollment tasks effortlessly.'} githubHref='https://github.com/firstminster' figmaHref='https://www.figma.com/file/pNRi6IWMv9sWtKEpGk5i7e/Dayspring-Academy?type=design&node-id=1%3A2&mode=design&t=DaHzoCTKbGz54IeZ-1' webHref='https://dayspringacademy.co/' />
+                {/* 
                 <div className="w-full flex flex-col items-center justify-center gap-28 mt-10 ">
                     <div className="flex flex-col xl:flex-row gap-6 ">
                         <a className='w-full xl:w-1/2 h-auto relative group' href="https://dayspringacademy.co/" target='_blank'>
@@ -67,7 +74,7 @@ const Projects = () => {
                                 Featured Project
                             </p>
                             <h3 className="text-2xl font-bold">
-                                Amazon clone 2.0
+                                ERP Solution for a K-12 Institution
                             </h3>
                             <p className="bg-[#112240] text-sm md:text-base p-2 xl:-mr-16 md:p-6 rounded-md">
                                 An Amazon clone website for visualizing personalized Amazon website. View your products, Add your account with{' '} <span className="text-textGreen">O-auth</span> and then make the purchase using <span className="text-textGreen">Stripe</span>

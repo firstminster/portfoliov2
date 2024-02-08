@@ -13,40 +13,130 @@ const Archive = () => {
                 <p className='text-sm font-titleFont text-textGreen' >view the archive</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
-                <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={['Reactjs', 'Tailwind CSS', 'getform.io']} link='https://www.firstminster.dev/' />
-                <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={['Reactjs', 'Tailwind CSS', 'getform.io']} link='https://www.firstminster.dev/' />
-                <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={['Reactjs', 'Tailwind CSS', 'getform.io']} link='https://www.firstminster.dev/' />
-                <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={['Reactjs', 'Tailwind CSS', 'getform.io']} link='https://www.firstminster.dev/' />
-                <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={['Reactjs', 'Tailwind CSS', 'getform.io']} link='https://www.firstminster.dev/' />
-                <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={['Reactjs', 'Tailwind CSS', 'getform.io']} link='https://www.firstminster.dev/' />
+                <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={[
+                    { id: 1, skill: "Nextjs" },
+                    { id: 2, skill: "JavaScript" },
+                    { id: 3, skill: "Typescript" },
+                    { id: 4, skill: "Tailwind CSS" },
+                    { id: 5, skill: "React hook form" },
+                ]} link='https://www.firstminster.dev/' />
+                <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={[
+                    { id: 1, skill: "Nextjs" },
+                    { id: 2, skill: "JavaScript" },
+                    { id: 3, skill: "Typescript" },
+                    { id: 4, skill: "Tailwind CSS" },
+                    { id: 5, skill: "React hook form" },
+                ]} link='https://www.firstminster.dev/' />
+                <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={[
+                    { id: 1, skill: "Nextjs" },
+                    { id: 2, skill: "JavaScript" },
+                    { id: 3, skill: "Typescript" },
+                    { id: 4, skill: "Tailwind CSS" },
+                    { id: 5, skill: "React hook form" },
+                ]} link='https://www.firstminster.dev/' />
+                <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={[
+                    { id: 1, skill: "Nextjs" },
+                    { id: 2, skill: "JavaScript" },
+                    { id: 3, skill: "Typescript" },
+                    { id: 4, skill: "Tailwind CSS" },
+                    { id: 5, skill: "React hook form" },
+                ]} link='https://www.firstminster.dev/' />
+                <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={[
+                    { id: 1, skill: "Nextjs" },
+                    { id: 2, skill: "JavaScript" },
+                    { id: 3, skill: "Typescript" },
+                    { id: 4, skill: "Tailwind CSS" },
+                    { id: 5, skill: "React hook form" },
+                ]} link='https://www.firstminster.dev/' />
+                <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={[
+                    { id: 1, skill: "Nextjs" },
+                    { id: 2, skill: "JavaScript" },
+                    { id: 3, skill: "Typescript" },
+                    { id: 4, skill: "Tailwind CSS" },
+                    { id: 5, skill: "React hook form" },
+                ]} link='https://www.firstminster.dev/' />
                 {
                     showMore && <>
                         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.1 }} >
-                            <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={['Reactjs', 'Tailwind CSS', 'getform.io']} link='https://www.firstminster.dev/' />
+                            <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={[
+                                { id: 1, skill: "Nextjs" },
+                                { id: 2, skill: "JavaScript" },
+                                { id: 3, skill: "Typescript" },
+                                { id: 4, skill: "Tailwind CSS" },
+                                { id: 5, skill: "React hook form" },
+                            ]} link='https://www.firstminster.dev/' />
                         </motion.div>
                         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.2 }} >
-                            <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={['Reactjs', 'Tailwind CSS', 'getform.io']} link='https://www.firstminster.dev/' />
+                            <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={[
+                                { id: 1, skill: "Nextjs" },
+                                { id: 2, skill: "JavaScript" },
+                                { id: 3, skill: "Typescript" },
+                                { id: 4, skill: "Tailwind CSS" },
+                                { id: 5, skill: "React hook form" },
+                            ]} link='https://www.firstminster.dev/' />
                         </motion.div>
                         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.3 }} >
-                            <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={['Reactjs', 'Tailwind CSS', 'getform.io']} link='https://www.firstminster.dev/' />
+                            <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={[
+                                { id: 1, skill: "Nextjs" },
+                                { id: 2, skill: "JavaScript" },
+                                { id: 3, skill: "Typescript" },
+                                { id: 4, skill: "Tailwind CSS" },
+                                { id: 5, skill: "React hook form" },
+                            ]} link='https://www.firstminster.dev/' />
                         </motion.div>
                         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.4 }} >
-                            <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={['Reactjs', 'Tailwind CSS', 'getform.io']} link='https://www.firstminster.dev/' />
+                            <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={[
+                                { id: 1, skill: "Nextjs" },
+                                { id: 2, skill: "JavaScript" },
+                                { id: 3, skill: "Typescript" },
+                                { id: 4, skill: "Tailwind CSS" },
+                                { id: 5, skill: "React hook form" },
+                            ]} link='https://www.firstminster.dev/' />
                         </motion.div>
                         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.5 }} >
-                            <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={['Reactjs', 'Tailwind CSS', 'getform.io']} link='https://www.firstminster.dev/' />
+                            <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={[
+                                { id: 1, skill: "Nextjs" },
+                                { id: 2, skill: "JavaScript" },
+                                { id: 3, skill: "Typescript" },
+                                { id: 4, skill: "Tailwind CSS" },
+                                { id: 5, skill: "React hook form" },
+                            ]} link='https://www.firstminster.dev/' />
                         </motion.div>
                         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.6 }} >
-                            <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={['Reactjs', 'Tailwind CSS', 'getform.io']} link='https://www.firstminster.dev/' />
+                            <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={[
+                                { id: 1, skill: "Nextjs" },
+                                { id: 2, skill: "JavaScript" },
+                                { id: 3, skill: "Typescript" },
+                                { id: 4, skill: "Tailwind CSS" },
+                                { id: 5, skill: "React hook form" },
+                            ]} link='https://www.firstminster.dev/' />
                         </motion.div>
                         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.7 }} >
-                            <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={['Reactjs', 'Tailwind CSS', 'getform.io']} link='https://www.firstminster.dev/' />
+                            <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={[
+                                { id: 1, skill: "Nextjs" },
+                                { id: 2, skill: "JavaScript" },
+                                { id: 3, skill: "Typescript" },
+                                { id: 4, skill: "Tailwind CSS" },
+                                { id: 5, skill: "React hook form" },
+                            ]} link='https://www.firstminster.dev/' />
                         </motion.div>
                         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.8 }} >
-                            <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={['Reactjs', 'Tailwind CSS', 'getform.io']} link='https://www.firstminster.dev/' />
+                            <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={[
+                                { id: 1, skill: "Nextjs" },
+                                { id: 2, skill: "JavaScript" },
+                                { id: 3, skill: "Typescript" },
+                                { id: 4, skill: "Tailwind CSS" },
+                                { id: 5, skill: "React hook form" },
+                            ]} link='https://www.firstminster.dev/' />
                         </motion.div>
                         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.9 }} >
-                            <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={['Reactjs', 'Tailwind CSS', 'getform.io']} link='https://www.firstminster.dev/' />
+                            <ArchiveCard title='Educare English Learning Academy' desc='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus deleniti temporibus consectetur veniam magnam atque itaque laudantium est.' listItem={[
+                                { id: 1, skill: "Nextjs" },
+                                { id: 2, skill: "JavaScript" },
+                                { id: 3, skill: "Typescript" },
+                                { id: 4, skill: "Tailwind CSS" },
+                                { id: 5, skill: "React hook form" },
+                            ]} link='https://www.firstminster.dev/' />
                         </motion.div>
                     </>
                 }

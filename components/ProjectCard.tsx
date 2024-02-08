@@ -10,10 +10,13 @@ interface Props {
     projectName: string;
     content: string;
     skills: any;
+    githubHref?: string
+    figmaHref?: string
+    webHref?: string
 }
 
-const ProjectCard = ({ image, projectName, skills, content }: Props) => {
-    console.log(skills);
+const ProjectCard = ({ image, projectName, skills, content, githubHref, figmaHref, webHref }: Props) => {
+
     return (
         <div className="w-full flex flex-col items-center justify-center gap-28 mt-10 ">
             <div className="flex flex-col xl:flex-row gap-6 ">
@@ -40,22 +43,22 @@ const ProjectCard = ({ image, projectName, skills, content }: Props) => {
                     <ul className='text-sm md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark' >
                         {skills.map((item: any, idx: number) => {
                             // console.log(item);
-                            <li key={idx}>{item}</li>
+                            const { id, skill } = item
+                            return (
+                                <li key={id}>{skill}</li>
+                            )
                         })
                         }
-                        {/* <li>JavaScript</li>
-                        <li>Typescript</li>
-                        <li>Tailwind CSS</li>
-                        <li>Vercel</li> */}
+
                     </ul>
                     <div className="text-2xl flex gap-4">
-                        <a className='hover:text-textGreen duration-300' href="https://github.com/firstminster" target='_blank'>
+                        <a className='hover:text-textGreen duration-300' href={githubHref} target='_blank'>
                             <TbBrandGithub />
                         </a>
-                        <a className='hover:text-textGreen duration-300' href="https://github.com/firstminster" target='_blank'>
+                        <a className='hover:text-textGreen duration-300' href={figmaHref} target='_blank'>
                             <FaFigma />
                         </a>
-                        <a className='hover:text-textGreen duration-300' href="https://github.com/firstminster" target='_blank'>
+                        <a className='hover:text-textGreen duration-300' href={webHref} target='_blank'>
                             <RxOpenInNewWindow />
                         </a>
                     </div>
