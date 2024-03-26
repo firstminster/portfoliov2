@@ -29,14 +29,18 @@ const Navbar = () => {
     }
 
     function handleClick(e: any) {
+
         if (e.target.contains(ref.current)) {
             // do something with myRef.current
             setShowMenu(false)
         }
     }
     // shadow-navbarShadow
+
+
+
     return (
-        <div className='w-full  h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4' >
+        <div className='w-full h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4' >
             <div className="max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between">
                 <Link onClick={handleScroll} href="#home">
 
@@ -88,7 +92,7 @@ const Navbar = () => {
                     <span className='w-full h-[2px] bg-textGreen inline-flex transform translate-x-1 group-hover:translate-x-3 transition-all ease-in-out duration-300'></span>
                 </div>
                 {
-                    showMenu && <div ref={node => ref.current = node} onClick={handleClick} className="absolute mdl:hidden top-0 right-0 w-full h-screen bg-[#000000] bg-opacity-50 flex flex-col items-end ">
+                    showMenu && <div ref={node => ref.current = node} onClick={handleClick} className="absolute lg:hidden top-0 right-0 w-full h-screen bg-[#000000] bg-opacity-50 flex flex-col items-end ">
                         <motion.div initial={{ x: 20, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 0.1 }} className="w-[80%] h-full overflow-y-scroll scrollbarHide bg-[#112240] flex flex-col items-center px-4 py-10 relative">
                             <MdOutlineClose onClick={() => setShowMenu(false)} className='tex-3xl text-textGreen cursor-pointer hover:text-red-500 absolute top-4 right-4' />
                             <div className="flex flex-col items-center gap-7">
@@ -98,25 +102,21 @@ const Navbar = () => {
                                     </Link> */}
                                     <Link onClick={handleScroll} href="#about" className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link ' >
                                         <motion.li initial={{ y: -10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.1, delay: 0.1 }}>
-
                                             <span className='text-textGreen' >01.</span> About
                                         </motion.li>
                                     </Link>
                                     <Link onClick={handleScroll} href="#experience" className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link ' >
                                         <motion.li initial={{ y: -10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.1, delay: 0.2 }}>
-
                                             <span className='text-textGreen'>02.</span> Experience
                                         </motion.li>
                                     </Link>
                                     <Link onClick={handleScroll} href="#project" className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link ' >
                                         <motion.li initial={{ y: -10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.1, delay: 0.3 }}>
-
                                             <span className='text-textGreen'>03.</span> Project
                                         </motion.li>
                                     </Link>
                                     <Link onClick={handleScroll} href="#contact" className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link ' >
                                         <motion.li initial={{ y: -10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.1, delay: 0.4 }}>
-
                                             <span className='text-textGreen'>04.</span> Contact
                                         </motion.li>
                                     </Link>

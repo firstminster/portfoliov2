@@ -10,5 +10,7 @@ import Zapier from './images/zapier.png'
 import Tier from './images/tier.png'
 import project from './images/website2.png'
 import project2 from './images/website3.png'
+import adminDashboad from './images/dashboad-view.png'
+import adminDashboad2 from './images/student-dash.png'
 
-export { logo, firstminster, heart, profileImg, profileImg2, EmailGen, EmailGen2, IcoDemo, Zapier, Tier, project, project2 }
+export { logo, firstminster, heart, profileImg, profileImg2, EmailGen, EmailGen2, IcoDemo, Zapier, Tier, project, project2, adminDashboad, adminDashboad2 }
