@@ -1,7 +1,7 @@
 import React from 'react'
 import SectionTitle from './SectionTitle'
 import Image from 'next/image'
-import { EmailGen, EmailGen2, IcoDemo, Tier, Zapier, adminDashboad, project, project2 } from '@/public/assets'
+import { EmailGen, EmailGen2, IcoDemo, Tier, Zapier, adminDashboad, adminDashboad2, project, project2 } from '@/public/assets'
 import { AiOutlineYoutube } from 'react-icons/ai'
 import { TbBrandGithub } from 'react-icons/tb'
 import { RxOpenInNewWindow } from 'react-icons/rx'
@@ -22,7 +22,7 @@ const Projects = () => {
                     // { id: 5, skill: "React hook form" },
                 ]} content={'I developed a dynamic landing page for a K-12 Institution, featuring streamlined admission processes, integrated payment options, news updates, event listings, campus galleries, and online registration forms. This user-friendly hub serves as a one-stop destination for prospective students and parents to explore institutional benefits and complete enrollment tasks effortlessly.'} githubHref='' figmaHref='https://www.figma.com/file/pNRi6IWMv9sWtKEpGk5i7e/Dayspring-Academy?type=design&node-id=1%3A2&mode=design&t=DaHzoCTKbGz54IeZ-1' webHref='https://dayspringacademy.co/' />
                 {/* Project two */}
-                <ProjectCard cssStyle='xl:flex-row-reverse' cardContentStyle='xl:-mr-16' image={adminDashboad} projectName={"ERP Solution for a K-12 Institution"} skills={[
+                <ProjectCard cssStyle='xl:flex-row-reverse' cardContentStyle='xl:-mr-16' image={adminDashboad2} projectName={"ERP Solution for a K-12 Institution"} skills={[
                     { id: 1, skill: "NextJs" },
                     { id: 2, skill: "JavaScript" },
                     { id: 3, skill: "Typescript" },
