@@ -1,7 +1,7 @@
 import React from 'react'
 import SectionTitle from './SectionTitle'
 import Image from 'next/image'
-import { EmailGen, EmailGen2, IcoDemo, Tier, Zapier, adminDashboad, adminDashboad2, project, project2 } from '@/public/assets'
+import { EmailGen, EmailGen2, IcoDemo, Tier, Zapier, adminDashboad, project, project2 } from '@/public/assets'
 import { AiOutlineYoutube } from 'react-icons/ai'
 import { TbBrandGithub } from 'react-icons/tb'
 import { RxOpenInNewWindow } from 'react-icons/rx'
@@ -14,16 +14,15 @@ const Projects = () => {
             <SectionTitle title='Some Things I have Built' titleNo='03' />
             <div className="w-full flex flex-col items-center justify-between gap-28 mt-10">
                 {/* Project one */}
-                <ProjectCard image={project2} projectName={"K-12 Institution"} skills={[
+                <ProjectCard cssStyle='xl:flex-row' cardDetailStyle='xl:-ml-16' image={project2} projectName={"K-12 Institution"} skills={[
                     { id: 1, skill: "NextJs" },
                     { id: 2, skill: "JavaScript" },
                     { id: 3, skill: "Typescript" },
                     { id: 4, skill: "Tailwind CSS" },
                     // { id: 5, skill: "React hook form" },
                 ]} content={'I developed a dynamic landing page for a K-12 Institution, featuring streamlined admission processes, integrated payment options, news updates, event listings, campus galleries, and online registration forms. This user-friendly hub serves as a one-stop destination for prospective students and parents to explore institutional benefits and complete enrollment tasks effortlessly.'} githubHref='' figmaHref='https://www.figma.com/file/pNRi6IWMv9sWtKEpGk5i7e/Dayspring-Academy?type=design&node-id=1%3A2&mode=design&t=DaHzoCTKbGz54IeZ-1' webHref='https://dayspringacademy.co/' />
-
                 {/* Project two */}
-                <ProjectCard image={adminDashboad2} projectName={"ERP Solution for a K-12 Institution"} skills={[
+                <ProjectCard cssStyle='xl:flex-row-reverse' cardContentStyle='xl:-mr-16' image={adminDashboad} projectName={"ERP Solution for a K-12 Institution"} skills={[
                     { id: 1, skill: "NextJs" },
                     { id: 2, skill: "JavaScript" },
                     { id: 3, skill: "Typescript" },
@@ -39,7 +38,7 @@ const Projects = () => {
                                 <Image className='w-full h-full object-contain' src={Tier} alt='EmailGenImg' />
                             </div>
                         </a>
-                        <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right  z-10">
+                        <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right z-10">
                             <p className="font-titleFont text-textGreen text-sm tracking-wide">
                                 Featured Project
                             </p>
@@ -60,7 +59,7 @@ const Projects = () => {
                                 <a className='hover:text-textGreen duration-300' href="https://github.com/firstminster" target='_blank'>
                                     <TbBrandGithub />
                                 </a>
-
+                               
                                 <a className='hover:text-textGreen duration-300' href="#" target='_blank'>
                                     <RxOpenInNewWindow />
                                 </a>

@@ -13,19 +13,22 @@ interface Props {
     githubHref?: string
     figmaHref?: string
     webHref?: string
+    cssStyle: string;
+    cardDetailStyle?: string;
+    cardContentStyle?: string
 }
 
-const ProjectCard = ({ image, projectName, skills, content, githubHref, figmaHref, webHref }: Props) => {
+const ProjectCard = ({ image, projectName, skills, content, githubHref, figmaHref, webHref, cssStyle, cardDetailStyle, cardContentStyle }: Props) => {
 
     return (
         <div className="w-full flex flex-col items-center justify-center gap-28 mt-10 ">
-            <div className="flex flex-col xl:flex-row gap-6 ">
+            <div className={`flex flex-col gap-6 ${cssStyle}`}>
                 <a className='w-full xl:w-1/2 h-auto relative group' href={webHref} target='_blank'>
                     <div className="">
                         <Image className='w-full h-full object-contain' src={image} alt='EmailGenImg' />
                     </div>
                 </a>
-                <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
+                <div className={`w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right z-10 ${cardDetailStyle}`}>
                     <p className="font-titleFont text-textGreen text-sm tracking-wide">
                         Featured Project
                     </p>
@@ -33,13 +36,11 @@ const ProjectCard = ({ image, projectName, skills, content, githubHref, figmaHre
                         {projectName}
                         {/* K-12 Institution  */}
                     </h3>
-                    <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+                    <p className={`bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md ${cardContentStyle}`}>
                         {content}
-                        {/* I developed a dynamic landing page for a K-12 Institution, featuring streamlined admission processes, integrated payment options, news updates, event listings, campus galleries, and online registration forms. This user-friendly hub serves as a one-stop destination for prospective students and parents to explore institutional benefits and complete enrollment tasks effortlessly. */}
+
                     </p>
-                    {/* <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-                                An Amazon clone website for visualizing personalized Amazon website. View your products, Add your account with{' '} <span className="text-textGreen">O-auth</span> and then make the purchase using <span className="text-textGreen">Stripe</span>
-                            </p> */}
+
                     <ul className='text-sm md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark' >
                         {skills.map((item: any, idx: number) => {
                             // console.log(item);
